@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Accompagnement des entreprises en transformation numérique, automatisation et création d’agents IA.">
+<title>Sawda Consulting · Transformation numérique et agents IA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="#accueil"><span aria-hidden="true">✳</span> Sawda Consulting</a>
+  <nav aria-label="Navigation principale">
+    <a href="#services">Expertises</a><a href="#exemples">Cas d’usage</a><a href="#demarche">Démarche</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="button header-cta" href="#contact">Décrire mon projet</a>
+</header>
+<main id="accueil">
+<section class="wrap hero">
+  <div class="hero-copy">
+    <p class="kicker">Conseil numérique, automatisation et IA</p>
+    <h1>Moins de tâches répétitives. <em>Plus de temps pour vos clients.</em></h1>
+    <p class="intro">Sawda Consulting vous aide à simplifier vos processus, à connecter vos outils et à créer des agents IA que vos équipes savent utiliser.</p>
+    <div class="hero-actions"><a class="button" href="#contact">Décrire mon projet</a><a class="text-link" href="#exemples">Voir des cas d’usage</a></div>
+  </div>
+  <figure class="hero-visual">
+    <img class="hero-photo" src="images/equipe.jpg" alt="Une équipe travaille autour d’une table" width="1300" height="867" fetchpriority="high">
+    <figcaption><span aria-hidden="true">✳</span><div><strong>Commencez par une tâche concrète</strong><br>Une relance, une saisie ou une recherche récurrente.</div></figcaption>
+  </figure>
+</section>
+<section id="services" class="services section-pad">
+  <div class="wrap">
+    <h2>Trois façons d’avancer</h2>
+    <div class="cards photo-cards">
+      <article>
+        <img src="images/transformation.jpg" alt="" width="720" height="480" loading="lazy">
+        <div class="service-copy"><h3>Transformation numérique</h3><p>Faites le point sur vos outils et repérez où les informations se perdent ou se recopient.</p><p class="deliverable">Une feuille de route avec les actions à mener en priorité.</p><a class="text-link" href="#contact" data-topic="Transformation numérique">Parler de mes processus</a></div>
+      </article>
+      <article>
+        <img src="images/automatisation.jpg" alt="" width="720" height="479" loading="lazy">
+        <div class="service-copy"><h3>Automatisation</h3><p>Connectez vos outils pour traiter les demandes, déclencher des relances ou actualiser un tableau de suivi.</p><p class="deliverable">Un flux testé sur vos situations de travail.</p><a class="text-link" href="#contact" data-topic="Automatisation">Parler d’une tâche à automatiser</a></div>
+      </article>
+      <article>
+        <img src="images/agents.jpg" alt="" width="720" height="1079" loading="lazy">
+        <div class="service-copy"><h3>Initiation à l’IA et agents</h3><p>Apprenez à donner des consignes à un agent, à lui fournir les bonnes sources et à contrôler ses réponses.</p><p class="deliverable">Un premier agent construit avec votre équipe.</p><a class="text-link" href="#contact" data-topic="Initiation à l’IA et création d’agents">Parler d’un atelier IA</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="exemples" class="wrap section-pad examples">
+  <div><h2>Ce que vos outils pourraient faire à votre place</h2><p>Choisissez un scénario et avancez étape par étape, de la demande initiale au résultat. Les données de ces démonstrations sont fictives.</p></div>
+  <div class="scenarios">
+    <details open name="exemple">
+      <summary>Traiter les demandes entrantes</summary>
+      <p>Un agent classe les e-mails et prépare les réponses courantes. Votre équipe vérifie les brouillons et garde la main sur l’envoi.</p>
+      <div class="workflow-demo" id="demo-demandes">
+      <div class="demo-controls" aria-label="Étapes du scénario" role="group" hidden></div>
+      <ol class="demo-steps" aria-live="polite">
+        <li class="demo-step" data-label="E-mail reçu">
+          <span class="demo-stage">Étape 1 sur 3 · E-mail reçu</span>
+          <h3>Demande de devis</h3>
+          <p>Bonjour, nous cherchons à former huit collaborateurs à l’IA. Pouvez-vous nous présenter vos ateliers ?</p>
+        </li>
+        <li class="demo-step" data-label="Brouillon préparé">
+          <span class="demo-stage">Étape 2 sur 3 · Brouillon préparé</span>
+          <h3>Catégorie détectée · Formation IA</h3>
+          <p>Bonjour, merci pour votre message. Quels métiers et quelles tâches souhaitez-vous aborder pendant l’atelier ?</p>
+        </li>
+        <li class="demo-step" data-label="Validation humaine">
+          <span class="demo-stage">Étape 3 sur 3 · Validation humaine</span>
+          <h3>Brouillon en attente de validation</h3>
+          <p>La personne responsable vérifie la réponse et ajoute les informations utiles avant de décider de l’envoyer.</p>
+        </li>
+      </ol>
+    </div>
+    </details>
+    <details name="exemple">
+      <summary>Retrouver une procédure interne</summary>
+      <p>Un assistant interroge les documents autorisés et renvoie à la procédure utilisée. Il signale quand il lui manque une source.</p>
+      <div class="workflow-demo" id="demo-procedure">
+      <div class="demo-controls" aria-label="Étapes du scénario" role="group" hidden></div>
+      <ol class="demo-steps" aria-live="polite">
+        <li class="demo-step" data-label="Question posée">
+          <span class="demo-stage">Étape 1 sur 3 · Question posée</span>
+          <h3>Message d’un collègue</h3>
+          <p>Comment demander l’accès au tableau de suivi commercial ?</p>
+        </li>
+        <li class="demo-step" data-label="Document consulté">
+          <span class="demo-stage">Étape 2 sur 3 · Document consulté</span>
+          <h3>Procédure interne · Accès aux outils</h3>
+          <p>L’assistant retrouve la section « Outils commerciaux » dans le guide d’accueil.</p>
+        </li>
+        <li class="demo-step" data-label="Réponse avec source">
+          <span class="demo-stage">Étape 3 sur 3 · Réponse avec source</span>
+          <h3>Réponse proposée</h3>
+          <p>Remplissez le formulaire de demande d’accès, puis indiquez le nom du tableau et votre responsable. Source : Guide d’accueil, section « Outils commerciaux ».</p>
+        </li>
+      </ol>
+    </div>
+    </details>
+    <details name="exemple">
+      <summary>Préparer un point d’avancement</summary>
+      <p>Une automatisation récupère les tâches ouvertes et les échéances. L’équipe reçoit une synthèse à relire avant la réunion.</p>
+      <div class="workflow-demo" id="demo-synthese">
+      <div class="demo-controls" aria-label="Étapes du scénario" role="group" hidden></div>
+      <ol class="demo-steps" aria-live="polite">
+        <li class="demo-step" data-label="Tableau de suivi">
+          <span class="demo-stage">Étape 1 sur 3 · Tableau de suivi</span>
+          <h3>Tâches ouvertes cette semaine</h3>
+          <p>Relire le devis jeudi. Confirmer l’atelier vendredi. Préparer les documents d’accueil lundi.</p>
+        </li>
+        <li class="demo-step" data-label="Échéances regroupées">
+          <span class="demo-stage">Étape 2 sur 3 · Échéances regroupées</span>
+          <h3>Tri par date</h3>
+          <p>Deux échéances cette semaine. La préparation des documents figure dans le suivi de la semaine prochaine.</p>
+        </li>
+        <li class="demo-step" data-label="Synthèse à relire">
+          <span class="demo-stage">Étape 3 sur 3 · Synthèse à relire</span>
+          <h3>Préparation du point d’équipe</h3>
+          <p>À confirmer avant la réunion : la relecture du devis jeudi et le créneau de l’atelier vendredi. L’équipe ajoute les éventuels blocages.</p>
+        </li>
+      </ol>
+    </div>
+    </details>
+  </div>
+</section>
+<section id="demarche" class="section-pad approach">
+  <div class="wrap">
+    <h2>Du premier échange à la prise en main</h2>
+    <ol class="cards method">
+      <li><h3>Cadrer le besoin</h3><p>On choisit une tâche prioritaire et on définit ce qu’un premier essai doit améliorer.</p></li>
+      <li><h3>Tester en conditions réelles</h3><p>On essaie la solution sur des cas représentatifs et on ajuste les étapes qui demandent encore une vérification.</p></li>
+      <li><h3>Former l’équipe</h3><p>Vos collaborateurs apprennent à utiliser la solution, à contrôler ses résultats et à repérer quand elle doit être adaptée.</p></li>
+    </ol>
+  </div>
+</section>
+<section class="wrap section-pad faq" aria-labelledby="faq-title">
+  <div><h2 id="faq-title">Questions fréquentes</h2></div>
+  <div class="scenarios">
+    <details><summary>Faut-il changer nos outils ?</summary><p>On part de vos outils actuels et on vérifie lesquels peuvent être reliés. Si un changement est nécessaire, on en discute au moment du cadrage.</p></details>
+    <details><summary>Peut-on commencer sans expérience en IA ?</summary><p>Oui. On part d’un exemple dans votre métier et on apprend à donner des consignes et à vérifier les réponses sur ce cas.</p></details>
+    <details><summary>Comment le prix d’un projet est-il défini ?</summary><p>Il dépend du périmètre, des outils à relier et du niveau d’accompagnement souhaité. Le premier échange sert à préciser ces éléments.</p></details>
+  </div>
+</section>
+<section id="contact" class="wrap project section-pad">
+  <div>
+    <h2>Parlons de votre projet</h2>
+    <p>Quelle tâche aimeriez-vous simplifier ? Décrivez-la en quelques mots. Vous pourrez relire et envoyer votre demande depuis votre messagerie.</p>
+    <a class="contact-email" id="contact-email" href="mailto:aboud083@gmail.com">aboud083@gmail.com</a>
+  </div>
+  <form id="contact-form" hidden>
+    <div class="contact-fields">
+      <div><label for="name">Votre nom</label><input id="name" name="name" autocomplete="name" maxlength="100" required></div>
+      <div><label for="email">Votre adresse e-mail</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" required></div>
+    </div>
+    <label for="company">Quelle entreprise représentez-vous ? <small>(facultatif)</small></label>
+    <input id="company" name="company" autocomplete="organization" maxlength="120">
+    <label for="topic">Dans quel domaine avez-vous besoin d’aide ?</label>
+    <select id="topic" name="topic" required>
+      <option value="">Choisissez une réponse</option>
+      <option>Transformation numérique</option>
+      <option>Automatisation</option>
+      <option>Initiation à l’IA et création d’agents</option>
+      <option>Plusieurs domaines ou projet à définir</option>
+    </select>
+    <label for="need">Que souhaitez-vous améliorer ?</label>
+    <textarea id="need" name="need" rows="5" maxlength="1200" required placeholder="Par exemple, nous aimerions automatiser le suivi des demandes reçues par e-mail."></textarea>
+    <label for="timing">Quand souhaitez-vous commencer ? <small>(facultatif)</small></label>
+    <select id="timing" name="timing">
+      <option value="">Choisissez une réponse</option>
+      <option>Dans le mois</option>
+      <option>Dans les trois prochains mois</option>
+      <option>Plus tard</option>
+      <option>Je ne sais pas encore</option>
+    </select>
+    <button class="button" type="submit">Ouvrir dans ma messagerie</button>
+    <p id="feedback" role="status"></p>
+  </form>
+</section>
+</main>
+<footer class="wrap foot"><a class="brand" href="#accueil"><span aria-hidden="true">✳</span> Sawda Consulting</a><a href="#accueil">Retour en haut</a></footer>
+<script src="script.js" defer></script>
+</body>
+</html>
